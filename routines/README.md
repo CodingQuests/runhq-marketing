@@ -7,15 +7,23 @@ agent does; no need to touch the schedule.
 
 ## Schedule
 
+All routines run as remote cloud agents on **Opus 4.8** (`claude-opus-4-8`).
+
 | Routine | File | Cadence | Output |
 |---|---|---|---|
-| Outreach follow-ups | [`outreach-followups.md`](outreach-followups.md) | **Daily** | `outreach-followups/YYYY-MM-DD.md` |
+| Lead sourcing | [`lead-sourcing.md`](lead-sourcing.md) | **Daily 7:00 AM** | append real prospects to `lead-tracker.csv` |
+| Outreach follow-ups | [`outreach-followups.md`](outreach-followups.md) | **Daily 8:00 AM** | `outreach-followups/YYYY-MM-DD.md` |
 | Content drafts | [`content-drafts.md`](content-drafts.md) | **Weekly (Mon)** | `content-drafts/YYYY-Www.md` |
 | Competitor watch | [`competitor-watch.md`](competitor-watch.md) | **Weekly (Mon)** | prepend to `08-competitor-watch-log.md` |
 | Metrics digest | [`metrics-digest.md`](metrics-digest.md) | **Weekly (Fri)** | prepend to `09-metrics-digest.md` |
 
-Outreach runs daily because follow-ups are date-driven (+3 / +7 days). The other three change on a
-weekly rhythm, so daily runs would just produce noise.
+Lead sourcing runs at 7 AM so fresh prospects exist when outreach drafts run at 8 AM. Outreach is daily
+because follow-ups are date-driven (+3 / +7 days). The other three change on a weekly rhythm, so daily runs
+would just produce noise.
+
+> ⚠️ **This repo is public** — anything the agents commit (including sourced leads' names/handles) is
+> publicly visible. Sourced leads are public-signal-only, capped, cited, and flagged for human verification
+> before contact. Consider making the repo private if you'd rather not expose the lead list.
 
 ## What still needs you (not automatable)
 

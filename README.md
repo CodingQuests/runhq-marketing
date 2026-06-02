@@ -23,11 +23,11 @@ Source plan: `2 week plan RunHq.docx`.
 The recurring work is run by **scheduled cloud agents** — see [`routines/`](routines/) for the runbooks
 and schedule. They regenerate four artifacts on a cron and commit to `main`:
 
-- **Daily:** `outreach-followups/` (per-lead, date-driven follow-up drafts)
+- **Daily:** lead sourcing (appends real prospects to `lead-tracker.csv`) → `outreach-followups/` (per-lead, date-driven follow-up drafts)
 - **Weekly:** `content-drafts/`, the competitor watch log (08), and the metrics digest (09)
 
-The agents only produce the **written assets**. You still keep `lead-tracker.csv` and
-`metrics-dashboard.csv` current, run the ads, send the outreach, and run the demos.
+Agents run on **Opus 4.8** and produce/stage the assets; **you still verify each sourced lead before
+contacting**, keep `metrics-dashboard.csv` current, run the ads, send the outreach, and run the demos.
 
 ## Division of labor
 

@@ -15,6 +15,19 @@ Source plan: `2 week plan RunHq.docx`.
 | 05 | `lead-tracker.csv` | Lead / metrics tracking sheet | ⏳ |
 | 06 | `06-video-script.md` | 15-sec homepage video script + shot list | ⏳ |
 | 07 | `07-capterra-listing.md` | Capterra listing copy + category research | ⏳ |
+| 08 | `08-competitor-watch-log.md` | Running competitor/market watch (newest on top) | 🔁 Automated (weekly) |
+| 09 | `09-metrics-digest.md` | Weekly funnel read vs. the 5-customer goal | 🔁 Automated (weekly) |
+
+## Automation
+
+The recurring work is run by **scheduled cloud agents** — see [`routines/`](routines/) for the runbooks
+and schedule. They regenerate four artifacts on a cron and commit to `main`:
+
+- **Daily:** `outreach-followups/` (per-lead, date-driven follow-up drafts)
+- **Weekly:** `content-drafts/`, the competitor watch log (08), and the metrics digest (09)
+
+The agents only produce the **written assets**. You still keep `lead-tracker.csv` and
+`metrics-dashboard.csv` current, run the ads, send the outreach, and run the demos.
 
 ## Division of labor
 

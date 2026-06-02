@@ -1,0 +1,6 @@
+date_added,name,company,role,segment,source,channel,contact,signal_personalization,status,outreach_sent_date,followup_1_date,followup_2_date,replied,demo_booked_date,demo_done,trial_started,paid_customer,mrr,utm_campaign,notes
+# segment: founder | saas-team | ai-native | indie | community
+# source: reddit | linkedin | x | meta-ad | reddit-ad | capterra | referral | community
+# status: prospect | contacted | replied | demo_booked | demo_done | trialing | won | lost | nurture
+# Example row (delete before use):
+2026-06-02,Jane Doe,Acme AI,Founder,founder,linkedin,linkedin-dm,jane@acme.ai,posted about Cursor workflow,contacted,2026-06-02,,,no,,no,no,no,0,founder_painled,warm intro from X

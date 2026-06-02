@@ -17,6 +17,7 @@ Source plan: `2 week plan RunHq.docx`.
 | 07 | `07-capterra-listing.md` | Capterra listing copy + category research | ⏳ |
 | 08 | `08-competitor-watch-log.md` | Running competitor/market watch (newest on top) | 🔁 Automated (weekly) |
 | 09 | `09-metrics-digest.md` | Weekly funnel read vs. the 5-customer goal | 🔁 Automated (weekly) |
+| 10 | `10-outreach-comparison.md` | Our outreach vs. Tembo / Superset / Linear + what to steal | ✅ Drafted |
 
 ## Automation
 

@@ -11,10 +11,13 @@
 
 ## Who to scan each run
 1. **GitHub Agent HQ / Copilot coding agents** — the biggest strategic threat. New agentic-review / multi-agent / pre-PR scanning features.
-2. **CrewAI** — funding, pricing, mindshare (GitHub stars, downloads), enterprise motion.
-3. **ClickUp** — any move toward AI/agent dev workflows.
-4. **Paperclip** and **Qodo** — feature/positioning changes.
-5. **Market signals** — agent-PR-volume / review-overload stories usable as external proof for our thesis.
+2. **Tembo** (tembo.io) — closest peer. New features (does it move toward feedback-intake or preview/ship?), pricing, funding, enterprise vs founder positioning, their SEO/comparison-content output.
+3. **Superset** (superset.sh) — GitHub stars/mindshare, new launches (Show HN / Product Hunt), pricing, any move beyond the local IDE toward a hosted feedback→ship loop.
+4. **Linear** (linear.app) — agent features (Linear for Agents, MCP, Triage/Code Intelligence, Diffs); **watch especially for preview-env or deploy/ship features**, which would narrow our wedge.
+5. **CrewAI** — funding, pricing, mindshare (GitHub stars, downloads), enterprise motion.
+6. **ClickUp** — any move toward AI/agent dev workflows.
+7. **Paperclip** and **Qodo** — feature/positioning changes.
+8. **Market signals** — agent-PR-volume / review-overload stories usable as external proof for our thesis.
 
 ## Steps
 1. Resolve today's date. Read the last log entry to know what's already captured.

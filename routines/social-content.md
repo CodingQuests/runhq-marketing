@@ -21,7 +21,11 @@
    - **Reddit** — 1 *value-first* post for **one** subreddit, **rotating** across r/ClaudeCode, r/SaaS, r/startups, r/indiehackers, r/SideProject, r/webdev, r/programming (pick the best fit for today's angle; respect that r/webdev & r/programming are promo-strict and r/startups wants the "Share Your Startup" thread). Include: target subreddit, a maker-disclosure line, and a one-line rules reminder. **Submissions stay sparse** — if the same sub was posted to in the last few days, prefer a comment/engagement suggestion instead of a new submission.
    - **Facebook (Page)** — 1 short post, repurposed from the X/LinkedIn angle.
    - **YouTube** — only when due (~1–2×/wk): a short demo idea + title + 1-paragraph description + tags + a 5–8 line script outline. Otherwise note "no YouTube today."
-4. Add a **"Engage today"** block: 2–3 specific, real things to reply to / accounts to engage in the niche (e.g. people in `lead-tracker.csv`, or the day's relevant HN/Reddit threads) — engagement drives follower growth more than broadcasting.
+4. **★ X Engagement Queue (the growth centerpiece — replies drive follower growth more than posting).** Produce **4–6 ranked, real reply opportunities** for today. For each: the **target** (account/handle or thread), the **source link**, **why it's worth a reply** (relevance/size), and a **drafted, ready-to-personalize reply** (1–3 sentences, value-first, no link, opinion or genuine question — NOT a pitch). Source targets from, in priority order:
+   - **Hacker News** (fetch-friendly): query the Algolia API for today's/this-week's active threads on Claude Code, Cursor, coding agents, code review, "verification debt" (e.g. `https://hn.algolia.com/api/v1/search_by_date?query=claude%20code&tags=story`); verify the item is real + recent.
+   - **The watchlist in `11-social-playbook.md` §7** (accounts + keyword searches): for X targets you can't fetch, output the **exact X search to run** + the account + a drafted reply angle, so the human opens X and replies in seconds.
+   - **`lead-tracker.csv`** — 1–2 leads whose recent public work is worth a genuine (non-pitch) reply to build the relationship.
+   Rank by opportunity (relevance × reach). Label each `[HN]`, `[X]`, or `[lead]`. **Never fabricate a post, handle, or quote** — if you can't verify a target, give the *search to run* instead of inventing one. Note that the human personalizes + posts manually (we never auto-post replies).
 5. Header note: the angle(s) covered + confirmation hooks differ from recent days.
 
 ## Guardrails (non-negotiable)

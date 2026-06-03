@@ -22,7 +22,7 @@ Pair every **vision** hook with a **concrete proof** line. Never imply a fully u
 | **LinkedIn** | Founder narrative, credibility | 1/day (or 4–5/wk) | Longer-form posts, story-led |
 | **Reddit** | Community trust (highest care) | **Comment/engage daily; *submit* 1–2×/wk per sub, rotated** | Value-first, maker-disclosed |
 | **Facebook (Page)** | Low fit for devs — repurpose | 1/day, recycled from X/LI | Page posts |
-| **YouTube** | Demos / SEO compounding | 1–2/wk (video is a production lift) | Short screen-recorded demos; agent writes script/title/description/tags |
+| **YouTube** | Demos / SEO compounding | 1–2/wk (video is a production lift) | Screen-recorded demos (human) **+ Higgsfield-generated** ad/promo, intros/b-roll, avatar explainers, Shorts → see [`youtube/`](youtube/) |
 
 > ⚠️ "1/day per platform" is the *aim*, but **Reddit submissions must stay below that** — daily promo posts get accounts banned. Engage daily, submit sparingly.
 
@@ -61,4 +61,39 @@ Posting can't run from the cloud routine (no safe secret storage in a public rep
 - **Self-hosted poster script** (you run it with your own `.env`): true direct-API posting; we scaffold it. Requires creating a developer app per platform (X paid tier; LinkedIn/FB app review; YouTube Google Cloud + video files).
 - **Reddit:** human-posted, value-first, always.
 
-Per-platform setup checklist lives with the poster scaffold (to be added once you pick a path).
+Per-platform setup checklist lives with the poster scaffold (to be added once you pick a path). **Current choice: posting is manual.**
+
+---
+
+## 7. X growth playbook (reply-first)
+
+Growth on X comes from **engagement, not broadcasting** — especially cold-start. The daily `social-content`
+routine now produces a **★ X Engagement Queue** (4–6 ranked reply targets + a drafted reply each). You
+**personalize and post manually** — we never auto-post replies (ToS + ban risk + generic replies convert no one).
+
+### The daily 15-minute routine
+1. Open today's `social-content/<date>.md` → **X Engagement Queue**. Reply (in your words) to 3–6 targets. *This is the growth engine — do it first.*
+2. Post 1–2 of the day's X posts. Put any **link in a reply, not the main post** (links suppress reach).
+3. Reply to everyone who replies to you in the first hour (engagement velocity → reach).
+
+### Watchlist (seed — add the accounts you admire)
+**Accounts** (peers / leads / thought-leaders in the niche): `@rywalker` (Tembo), `@superset_sh`, `@StageReviewApp`,
+`@cloudflavor_io`, `@Jolliai`, + AI-coding / dev-tool founders you respect. *(Grow to 10–20 over time.)*
+**Keyword searches to monitor:** `"Claude Code"`, `"Cursor" agents`, `"agent PRs"`, `"code review" AI`,
+`"verification debt"`, `"shipping AI code"`, `"AI slop" PR`.
+
+### Your profile = the conversion page (set this once)
+A great reply earns a profile click; the profile earns the follow. Set:
+- **Bio** (pick one, ≤160 chars):
+  - A: *"Building RunHQ — the ops layer for AI coding agents. Feedback → reviewed PR → shipped, on a loop you control. Building in public. Early access ↓"*
+  - B: *"The bottleneck moved past writing code. Building RunHQ: user feedback → reviewed, shipped PRs — agents write it, you approve. Building in public ↓"*
+- **Pinned post:** your best thread (e.g. today's "verification debt" thread) or the 60-sec demo once recorded.
+- **Link/CTA:** the early-access URL.
+
+### The rest of the levers
+- **One lane:** post only what ladders up to "the bottleneck moved past writing code / AI-agent ops." Be predictable.
+- **Cadence + timing:** 1–3 posts/day, daily; aim for US tech hours (~8–11am & 1–3pm ET); check X analytics, double down on what drives profile visits + follows.
+- **Relationships:** build genuine rapport with founders at your level (many are in `lead-tracker.csv`); peers amplifying each other compounds.
+- **X Premium (~$8/mo):** reply-boost + analytics + longer posts — worth it for intentional growth.
+- 🚫 No bought followers, follow/unfollow, pods, or auto-posted replies.
+- **Reality:** slow for ~1–3 months, then compounds. Niche + consistency + genuine replies is the whole game.

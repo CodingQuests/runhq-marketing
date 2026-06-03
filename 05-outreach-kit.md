@@ -53,6 +53,21 @@ From the ICP in the plan:
 ### Template 4 — Community / Reddit DM (ultra-light)
 > Hey — saw your comment in {sub} about {topic}. We're building RunHQ for exactly that (the ops layer after a coding agent finishes). Mind if I send a link? Would love your take.
 
+### Template 5 — Parallel agents / "you're the bottleneck" (matrix angle J)
+> **Subject:** you're the bottleneck, not your agent
+>
+> Hi {First name} — saw {specific signal}.
+>
+> When you run a coding agent, you end up babysitting it: watch each step, confirm it works, *then* start the next task. One at a time, with you as the bottleneck.
+>
+> RunHQ runs your agents in parallel and brings the finished work back as clean PRs to review together — so you approve output instead of supervising every step. One team went from **5 shipped to 19 on the same feedback volume**.
+>
+> Worth a 10-min look for {Company}?
+>
+> {Your name}
+
+> **Use Template 5 when:** the lead visibly runs a single-agent loop (one Cursor/Claude Code session, serial PRs). The throughput stat (5→19) is the close — pair it with the parallel-runs mechanism, never imply zero review.
+
 ---
 
 ## Follow-up sequences
@@ -64,6 +79,8 @@ From the ICP in the plan:
 | 1 | 0 | Template 1–4 (initial) |
 | 2 | +3 | "Quick bump — here's the 15-sec demo so you can judge in 15 seconds: {link}. Worth a chat?" |
 | 3 | +7 | "Last one from me — if the 'after the agent writes code' problem ever gets loud, we're here: {link}. Happy to help anytime." |
+
+> **Angle-J (Template 5) bump variant for touch 2:** "Quick bump — the number that surprised me: same feedback volume, **5 shipped → 19** once the agents run in parallel instead of one at a time. 15-sec demo: {link}. Worth a chat?"
 
 **Warm-lead follow-up (they replied / showed interest):**
 - Reply within the hour. Offer 2 concrete demo time slots.

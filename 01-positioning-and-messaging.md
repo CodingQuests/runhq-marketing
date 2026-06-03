@@ -1,6 +1,6 @@
 # RunHQ — Positioning & Messaging
 
-> Built from the plan's positioning. Treat product claims as drafts to verify (`⚠️ VERIFY`).
+> Originally built from the plan's positioning; **product claims verified against the live runhq.io homepage on 2026-06-03** (the 01→04 loop, parallel agents, preview envs, BYO agent, hosted SaaS). VERIFY flags removed where the site confirms the claim. Note: the live site does **not** use the "self-evolving" vision line — that tier is internal-only for now.
 
 ---
 
@@ -69,6 +69,9 @@ RunHQ owns that layer.
 | G | Self-evolve (vision) | "Your product, self-evolving." | Homepage, X, LinkedIn | #1, #2, #5 |
 | H | Self-evolve + proof | "A product that ships its own improvements — from user feedback to reviewed PR." | LinkedIn, X | #1, #2 |
 | I | Self-evolve (outcome) | "Stop shipping updates. Let your product evolve into them." | Meta, Reddit | #2, #4 |
+| J | Parallel agents / you're the bottleneck | "Running coding agents one at a time? You're the bottleneck." | Outreach, X, Reddit | #1, #3 |
+
+> **Angle J proof point (from the homepage):** same feedback rate, **5 shipped → 19 shipped** with RunHQ's parallel agents — "parallel coding agents drain the queue as fast as it arrives." Lead with the bottleneck pain, land on the throughput stat. The honesty pairing: you parallelize the *work*, then review the *finished PRs together* — you don't stop reviewing, you stop babysitting each agent step-by-step.
 
 **How to test:** run A–I as ad headline variants and organic post hooks; track which drives the most qualified clicks / demo bookings. Promote the winner in Week 2.
 
@@ -76,10 +79,13 @@ RunHQ owns that layer.
 
 ## 6. Value propositions (proof-oriented)
 
-- **Feedback in, tasks out.** Paste a bug report or user message → RunHQ produces an agent-ready task spec. *(⚠️ VERIFY feature exists)*
-- **Reviewed, not just generated.** Agent PRs come with structured review so you ship with confidence. *(⚠️ VERIFY)*
-- **Preview before you ship.** Every change gets a preview environment automatically. *(⚠️ VERIFY)*
-- **Built for your stack.** Works with Claude Code, Cursor, Codex, Devin, GitHub, Vercel, Linear. *(⚠️ VERIFY which integrations are live)*
+> ✅ Verified against the live homepage 2026-06-03. The 01→04 loop is the site's own "Every release walks the same loop" section.
+
+- **Feedback in, no login wall.** Users send feedback through one embedded widget — no separate account — and it lands with the page, the user, and repro context attached. *(homepage step 01)*
+- **Run agents in parallel, not one at a time.** RunHQ spawns your agents as parallel processes on the queue, with a full audit log — so throughput isn't capped at one agent's pace. Proof: **5 → 19 shipped** on the same feedback volume. *(homepage step 02 + hero stat)*
+- **Reviewed, not just generated.** Every run lands as a clean GitHub PR with diff, summary, and provenance — scan, comment, approve in the flow you already use, with one-click revert. *(homepage step 03)*
+- **Preview before you ship.** Every PR gets its own live preview environment (own URL, own env) so you can exercise the change end-to-end before merge; ships via your existing CD. *(homepage step 04)*
+- **Bring your own agent, your own stack.** Works with Claude Code, Cursor, Codex, or your own agent, on GitHub + Vercel. *(homepage step 02; Devin/Linear not shown on the live site — drop unless confirmed)*
 
 ## 7. Objection handling
 

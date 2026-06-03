@@ -46,7 +46,7 @@ From `05-outreach-kit.md`, `01-positioning-and-messaging.md`, `03-ad-creatives.m
 - **Steal for RunHQ:**
   - ✅ **Plan a real launch moment** — a **Show HN / Product Hunt** for RunHQ (or a sharp free tool, e.g. "paste feedback → get an agent-ready task spec"). One good launch can out-deliver a week of cold DMs.
   - ✅ **Harvest + reshare testimonials** from early demos/users — social proof is the highest-converting asset for this audience.
-  - ✅ Consider an **open-source or free wedge** (a CLI / the feedback→task step) as a no-friction top-of-funnel. *(Decide vs. the hosted-SaaS model — ⚠️ VERIFY product shape.)*
+  - ✅ Consider an **open-source or free wedge** (a CLI / the feedback→task step) as a no-friction top-of-funnel. *(Product shape confirmed 2026-06-03: hosted SaaS with a self-serve "Start free" tier — so a free entry already exists; an OSS/CLI wedge is an optional add, not a pivot.)*
 
 ### Linear — *brand / craft / build-in-public*
 - **What they do:** ~**$35K total paid** to a ~$1.25B valuation. Growth from **product craft as distribution** (screenshot-worthy UI), **founder-led social**, **The Linear Method** (an opinionated manifesto that *filters for the right customers*), a **waitlist + ~1-yr closed beta + Slack community**, and a **polished, ~weekly changelog** as a content engine. Sales-assist added only later for enterprise.
@@ -72,7 +72,7 @@ From `05-outreach-kit.md`, `01-positioning-and-messaging.md`, `03-ad-creatives.m
 | Community (Discord/Slack) | ❌ | ➖ | ✅ | ✅ |
 | Manifesto / opinionated POV | ➖ (in positioning, unpublished) | ✅ | ✅ | ✅ **signature** |
 | Paid ads | ✅ (Reddit/Meta) | ⚠️ unverified | ❌ | ❌ (~$35K total) |
-| PLG free tier / self-serve | ⚠️ VERIFY | ✅ | ✅ | ✅ |
+| PLG free tier / self-serve | ✅ ("Start free") | ✅ | ✅ | ✅ |
 | Testimonial / social proof flywheel | ❌ **gap** | ➖ | ✅ | ✅ |
 
 ✅ = core strength · ➖ = present/partial · ❌ = absent · **gap** = a cheap, high-leverage thing to add
@@ -104,6 +104,6 @@ From `05-outreach-kit.md`, `01-positioning-and-messaging.md`, `03-ad-creatives.m
 
 **Plan for right after the sprint (compounding bets):**
 5. **A real launch moment** — Show HN / Product Hunt for RunHQ or a free wedge tool (e.g. "paste feedback → agent-ready task"). *(steal: Superset)*
-6. **Decide the free/OSS wedge** — a no-friction top-of-funnel vs. hosted-only. *(steal: Tembo, Superset; ⚠️ VERIFY product shape)*
+6. **Decide the OSS wedge** — a self-serve "Start free" tier already exists (confirmed 2026-06-03); the open question is whether to add an OSS/CLI top-of-funnel on top of it. *(steal: Tembo, Superset)*
 
 **Net:** Push hard outbound to hit 5 customers in 14 days; in parallel spend a few hours planting pull-engine seeds (manifesto, build-in-public, one comparison post, testimonials) so week 3 onward isn't starting from zero.

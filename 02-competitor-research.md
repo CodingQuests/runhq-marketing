@@ -46,7 +46,7 @@ The market splits into five buckets, and **none owns the loop that starts from u
 - **Pricing:** Open-source / self-hosted (bring your own infra & agents).
 - **Strengths:** Huge momentum, generality, governance/observability story, free.
 - **Weakness vs RunHQ:** General-purpose agent management; requires meaningful technical setup (Node, CLI, env config). Not specialized in the coding feedback→ship pipeline, no opinionated PR-review/preview-env workflow.
-- **RunHQ angle against it:** *"Paperclip manages any agent doing any job. RunHQ is purpose-built for shipping code: feedback in, reviewed PR out — no self-hosting required."* *(⚠️ VERIFY RunHQ is hosted/SaaS)*
+- **RunHQ angle against it:** *"Paperclip manages any agent doing any job. RunHQ is purpose-built for shipping code: feedback in, reviewed PR out — no self-hosting required."* *(✅ confirmed hosted SaaS — homepage has Start free / Pricing / "live in 60 minutes" / cancel anytime, 2026-06-03)*
 
 ## 4. Tembo (tembo.io) — closest peer ⭐
 

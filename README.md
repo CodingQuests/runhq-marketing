@@ -46,4 +46,10 @@ contacting**, keep `metrics-dashboard.csv` current, run the ads, send the outrea
 
 ## Important caveat
 
-All product specifics here are built from the **positioning in the plan doc** (RunHQ = "operations layer for AI coding agents"; feedback → agent-ready tasks → reviewed PRs → preview envs → shipped updates), because runhq.io is JS-rendered and not machine-readable. **Review every product claim for accuracy before publishing.** Anything I'm unsure about is flagged `⚠️ VERIFY`.
+Product specifics here were originally built from the **positioning in the plan doc** (RunHQ = "operations layer for AI coding agents"; feedback → agent-ready tasks → reviewed PRs → preview envs → shipped updates), because runhq.io is JS-rendered and not machine-readable.
+
+**Verified against the live homepage 2026-06-03.** The reconstruction held up: the site's "Every release walks the same loop" maps 1:1 to our 01→04 loop (Collect feedback → Assign agents *in parallel* → Review PRs → Test + Deploy preview envs), it's a hosted SaaS ("Start free" / "live in 60 minutes" / cancel anytime), and BYO agent = Claude Code / Cursor / Codex on GitHub + Vercel. Product-claim `⚠️ VERIFY` flags in `01`, `02`, `10` have been cleared accordingly.
+
+**Still unconfirmed / internal-only:** the live site does **not** use the "self-evolving" vision line (keep it internal for now); Devin / Linear integrations are not shown on the site (drop unless confirmed). **Real customer logos on the site** (usable as social proof, light verification recommended): **jeju.com, smartbid.ai, socialrealtr.com**. Hero stat to reuse: **5 → 19 shipped** on the same feedback volume with parallel agents.
+
+The other `⚠️ VERIFY` / "VERIFY before sending" markers in `youtube/`, `lead-tracker.csv`, and `outreach-followups/` are a **different rule** (don't fabricate UI in generated video; confirm a lead's identity before contacting) and stay in place.

@@ -19,7 +19,7 @@ Pair every **vision** hook with a **concrete proof** line. Never imply a fully u
 | Platform | Role | Realistic cadence | Format |
 |---|---|---|---|
 | **X** | Primary — the ICP lives here | 1–3 posts/day + replies | Hooks, threads, build-in-public, hot takes |
-| **LinkedIn** | Founder narrative, credibility | 1/day (or 4–5/wk) | Longer-form posts, story-led |
+| **LinkedIn** | 🎯 **Focused growth channel — RunHQ company page.** Full plan: [`13-linkedin-growth.md`](13-linkedin-growth.md); owned by its own daily routine. | 1 page post/day + personal reshare + 45 min engagement | Hook-first page posts, carousels, polls, personal reshares |
 | **Reddit** | Community trust (highest care) | **Comment/engage daily; *submit* 1–2×/wk per sub, rotated** | Value-first, maker-disclosed |
 | **Facebook (Page)** | Low fit for devs — repurpose | 1/day, recycled from X/LI | Page posts |
 | **YouTube** | Demos / SEO compounding | 1–2/wk (video is a production lift) | Screen-recorded demos (human) **+ Higgsfield-generated** ad/promo, intros/b-roll, avatar explainers, Shorts → see [`youtube/`](youtube/) |
@@ -75,6 +75,12 @@ routine now produces a **★ X Engagement Queue** (4–6 ranked reply targets + 
 1. Open today's `social-content/<date>.md` → **X Engagement Queue**. Reply (in your words) to 3–6 targets. *This is the growth engine — do it first.*
 2. Post 1–2 of the day's X posts. Put any **link in a reply, not the main post** (links suppress reach).
 3. Reply to everyone who replies to you in the first hour (engagement velocity → reach).
+
+### CTA & conversion → see [`12-dm-playbook.md`](12-dm-playbook.md)
+Posts/replies exist to start a **DM**, not to close. Standard CTA on posts: **"DM for an early-access code."**
+In the DM, go question-first (qualify → find the pain → book a 15-min call), and use the scarcity offer
+(*"onboarding a few teams this week — we'll help you set up your first feedback-to-PR workflow"*). Funnel:
+**post/reply → DM → 15-min demo → guided setup → paid early access.**
 
 ### Watchlist (seed — add the accounts you admire)
 **Accounts** (peers / leads / thought-leaders in the niche): `@rywalker` (Tembo), `@superset_sh`, `@StageReviewApp`,

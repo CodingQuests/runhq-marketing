@@ -6,7 +6,8 @@
 
 ## Inputs
 - `lead-tracker.csv` — the source of truth for leads and their stage/dates.
-- `05-outreach-kit.md` — cold templates (1–4), follow-up cadence, demo flow.
+- `05-outreach-kit.md` — cold **email** templates (1–4), follow-up cadence, demo flow.
+- `12-dm-playbook.md` — the **DM** script (question-first) + the standard offer + access-code-vs-demo logic.
 - `outreach-followups/` — prior days' files (for context; don't repeat an identical draft you sent yesterday).
 - `01-positioning-and-messaging.md` §8 voice & §9 glossary.
 
@@ -26,7 +27,11 @@
    | `trialing`, `trial_started` + **7d** ≤ today | **Stage 6** trial → paid |
 
    A lead with no due action today is omitted (don't pad the file).
-4. **Draft each due message.** Use the exact stage copy from `outreach-followups/2026-06-02.md` / `05-outreach-kit.md` as the base, then **fill every `{placeholder}` from the CSV** (`name`→first name, `company`, `signal_personalization`→specific signal, `channel`, etc.). Any placeholder you can't fill from the data, leave as `{placeholder}` and list it under a per-lead **"Fill before sending"** line. Personalize the first line — never a generic mass-blast.
+4. **Draft each due message — match the format to the `channel`:**
+   - **DM channels** (`x-dm`, `reddit-dm`, `linkedin-dm`, `community`, `hn-reply`): use the **question-first DM script in `12-dm-playbook.md`**. For Stage 0, that's the qualify-question opener (one short question, personalized to their signal — NOT a pitch). The goal is to start a conversation → book a 15-min call, not to explain everything.
+   - **Email channel** (`email`): use the longer pain-led template from `05-outreach-kit.md` / `outreach-followups/2026-06-02.md`.
+   - For both, when an offer is stated use the standard framing from `12-dm-playbook.md` (*"onboarding a small number of teams this week… we'll personally help you set up your first feedback-to-PR workflow"* — scarcity + done-with-you), and pick **access-code vs demo** per that doc (indie → code; strong-fit team → demo).
+   **Fill every `{placeholder}` from the CSV** (`name`→first name, `company`, `signal_personalization`→specific signal). Leave any you can't fill as `{placeholder}` under a per-lead **"Fill before sending"** line. Personalize the first line — never a generic mass-blast.
 5. **Top of file:** a short "Due today" summary table — `name · company · channel · stage · why-now (date math)`. Then one section per lead with the ready-to-send draft.
 6. **End of file:** the per-lead tracking reminder (which CSV columns to update after sending), and flag any leads whose dates look stale/inconsistent.
 

@@ -19,16 +19,21 @@ Source plan: `2 week plan RunHq.docx`.
 | 09 | `09-metrics-digest.md` | Weekly funnel read vs. the 5-customer goal | 🔁 Automated (weekly) |
 | 10 | `10-outreach-comparison.md` | Our outreach vs. Tembo / Superset / Linear + what to steal | ✅ Drafted |
 | 11 | `11-social-playbook.md` | Social growth strategy: pillars, per-platform cadence, subreddit playbook | 🔁 Feeds daily social routine |
+| 12 | [`youtube/`](youtube/) | YouTube content system — Higgsfield-generated ad/promo, intros, avatar explainers, Shorts (MCP-driven, manual upload) | 🆕 Drafted |
+| 13 | `13-linkedin-growth.md` | LinkedIn company-page growth playbook: page setup, pillars, weekly slot grid, 45-min engagement engine, scheduler publishing | 🔁 Feeds daily LinkedIn routine |
+| — | [`linkedin/`](linkedin/) | Daily LinkedIn output: ready-to-post pieces + engagement plan + scheduler import CSV (`linkedin/import/`) | 🔁 Automated (daily) |
 
 ## Automation
 
 The recurring work is run by **scheduled cloud agents** — see [`routines/`](routines/) for the runbooks
 and schedule. They regenerate four artifacts on a cron and commit to `main`:
 
-- **Daily:** social content (`social-content/` — X/LinkedIn/Reddit/FB/YouTube posts) → lead sourcing (appends real prospects to `lead-tracker.csv`) → `outreach-followups/` (per-lead, date-driven follow-up drafts)
+- **Daily:** social content (`social-content/` — X/Reddit/FB/YouTube posts) → **LinkedIn content** (`linkedin/` — 1 company-page post/day + personal reshare + engagement plan + scheduler import) → lead sourcing (appends real prospects to `lead-tracker.csv`) → `outreach-followups/` (per-lead, date-driven follow-up drafts)
 - **Weekly:** `content-drafts/`, the competitor watch log (08), and the metrics digest (09)
 
-Social **content** is generated automatically; **posting** is not (no platform credentials live in this public repo) — see `11-social-playbook.md` §6.
+Social/LinkedIn **content** is generated automatically; **posting** is not (no platform credentials live in this public repo). LinkedIn publishes via a **scheduler you connect once** (Typefully/Buffer/Publer) — see `13-linkedin-growth.md` §7; other platforms see `11-social-playbook.md` §6.
+
+**YouTube** content uses **Higgsfield** via its MCP connector — driven **interactively in a session** (the MCP needs an interactive login, so it can't run as a headless routine) and **uploaded manually**. It *complements* the screen-recorded demos, it doesn't replace them. System + setup: [`youtube/`](youtube/).
 
 Agents run on **Opus 4.8** and produce/stage the assets; **you still verify each sourced lead before
 contacting**, keep `metrics-dashboard.csv` current, run the ads, send the outreach, and run the demos.

@@ -11,7 +11,8 @@ All routines run as remote cloud agents on **Opus 4.8** (`claude-opus-4-8`).
 
 | Routine | File | Cadence | Output |
 |---|---|---|---|
-| Social content | [`social-content.md`](social-content.md) | **Daily 6:30 AM** | `social-content/YYYY-MM-DD.md` (X/LI/Reddit/FB/YouTube posts) |
+| Social content | [`social-content.md`](social-content.md) | **Daily 6:30 AM** | `social-content/YYYY-MM-DD.md` (X/Reddit/FB/YouTube posts) |
+| LinkedIn content | [`linkedin-content.md`](linkedin-content.md) | **Daily 6:45 AM** | `linkedin/YYYY-MM-DD.md` + `linkedin/import/YYYY-MM-DD.csv` (company-page posts + engagement plan) |
 | Lead sourcing | [`lead-sourcing.md`](lead-sourcing.md) | **Daily 7:00 AM** | append real prospects to `lead-tracker.csv` |
 | Outreach follow-ups | [`outreach-followups.md`](outreach-followups.md) | **Daily 8:00 AM** | `outreach-followups/YYYY-MM-DD.md` |
 | Content drafts | [`content-drafts.md`](content-drafts.md) | **Weekly (Mon)** | `content-drafts/YYYY-Www.md` |
